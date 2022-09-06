@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hurted.mp3-22c14d7d00d7ba39d48bf8789c91b16a.mp3str"
+
+[deps]
+
+source_file="res://hurted.mp3"
+dest_files=[ "res://.import/hurted.mp3-22c14d7d00d7ba39d48bf8789c91b16a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

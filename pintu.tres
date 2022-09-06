@@ -1,0 +1,46 @@
+[gd_resource type="Animation" load_steps=2 format=2]
+
+[ext_resource path="res://pinturillo.mp3" type="AudioStream" id=1]
+
+[resource]
+resource_name = "pintu"
+length = 0.1
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -5.213, -174.495, -6.227 ), Vector3( -11.845, -174.495, -6.227 ), Vector3( -5.213, -174.495, -6.227 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../bala azul")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0325446,
+"start_offset": 0.03,
+"stream": ExtResource( 1 )
+} ],
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("pintura:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}

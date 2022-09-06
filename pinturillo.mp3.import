@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pinturillo.mp3-35613980c513cf6205575bc206eabbae.mp3str"
+
+[deps]
+
+source_file="res://pinturillo.mp3"
+dest_files=[ "res://.import/pinturillo.mp3-35613980c513cf6205575bc206eabbae.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

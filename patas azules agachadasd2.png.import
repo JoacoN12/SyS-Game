@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/patas azules agachadasd2.png-237d3cfd646d4c6f6ea38a6f94f5ae31.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://patas azules agachadasd2.png"
+dest_files=[ "res://.import/patas azules agachadasd2.png-237d3cfd646d4c6f6ea38a6f94f5ae31.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.9
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

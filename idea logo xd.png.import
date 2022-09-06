@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/idea logo xd.png-1e1e3d4176715e1852138b5a51d34355.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://idea logo xd.png"
+dest_files=[ "res://.import/idea logo xd.png-1e1e3d4176715e1852138b5a51d34355.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.9
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

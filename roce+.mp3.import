@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/roce+.mp3-e4ea08b00edc82fa9c832a965f17e375.mp3str"
+
+[deps]
+
+source_file="res://roce+.mp3"
+dest_files=[ "res://.import/roce+.mp3-e4ea08b00edc82fa9c832a965f17e375.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

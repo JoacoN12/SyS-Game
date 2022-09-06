@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/frrr.mp3-4104fe8d66f2dfded7ed502a17d9170c.mp3str"
+
+[deps]
+
+source_file="res://frrr.mp3"
+dest_files=[ "res://.import/frrr.mp3-4104fe8d66f2dfded7ed502a17d9170c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

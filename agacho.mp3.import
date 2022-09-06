@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/agacho.mp3-46480c4d22cb6ecd952e852c9e36408b.mp3str"
+
+[deps]
+
+source_file="res://agacho.mp3"
+dest_files=[ "res://.import/agacho.mp3-46480c4d22cb6ecd952e852c9e36408b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

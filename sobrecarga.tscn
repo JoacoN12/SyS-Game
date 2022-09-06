@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+trail_divisor = 25
+direction = Vector3( 2, 2, 2 )
+spread = 130.89
+gravity = Vector3( 0.31, 0.214, 0.163 )
+initial_velocity = 0.13
+initial_velocity_random = 0.18
+angular_velocity = 310.97
+scale = 8.0
+scale_random = 1.0
+hue_variation = 0.28
+hue_variation_random = 0.59
+anim_speed = 0.25
+anim_speed_random = 0.32
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_transparent = true
+flags_unshaded = true
+vertex_color_use_as_albedo = true
+params_blend_mode = 1
+params_depth_draw_mode = 3
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_color = Color( 0, 1, 0.486275, 1 )
+
+[sub_resource type="QuadMesh" id=3]
+material = SubResource( 2 )
+
+[node name="Particles" type="Particles"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+emitting = false
+amount = 19
+lifetime = 27.96
+explosiveness = 0.61
+randomness = 1.0
+process_material = SubResource( 1 )
+draw_pass_1 = SubResource( 3 )

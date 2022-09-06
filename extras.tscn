@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://turnback.png" type="Texture" id=1]
+[ext_resource path="res://extras.gd" type="Script" id=2]
+[ext_resource path="res://pulpadomenu3.png" type="Texture" id=3]
+
+[node name="extras" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="negro" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="azul" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 46.0
+margin_right = -34.0
+margin_bottom = -43.0
+color = Color( 0.12549, 0, 1, 1 )
+
+[node name="Pulpadomenu3" type="Sprite" parent="."]
+position = Vector2( 960, 541 )
+scale = Vector2( 3.08, 1.65167 )
+texture = ExtResource( 3 )
+
+[node name="botones" type="VBoxContainer" parent="."]
+margin_left = 40.0
+margin_top = 793.0
+margin_right = 1224.0
+margin_bottom = 1239.0
+rect_scale = Vector2( 0.467685, 0.517213 )
+
+[node name="Back" type="Button" parent="botones"]
+margin_right = 1184.0
+margin_bottom = 446.0
+icon = ExtResource( 1 )
+flat = true
+
+[connection signal="pressed" from="botones/Back" to="." method="_on_Back_pressed"]

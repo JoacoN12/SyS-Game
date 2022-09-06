@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fuck you.mp3-12b91dfbd40425a3b228468704cdb5b0.mp3str"
+
+[deps]
+
+source_file="res://fuck you.mp3"
+dest_files=[ "res://.import/fuck you.mp3-12b91dfbd40425a3b228468704cdb5b0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

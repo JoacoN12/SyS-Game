@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=2]
+
+[ext_resource path="res://menustart1.png" type="Texture" id=1]
+
+[resource]
+/icons/menustart1 = ExtResource( 1 )
+Button/icons/m = null

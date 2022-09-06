@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pintura.mp3-546ca3f3a3310f3e3834c7e85ce75713.mp3str"
+
+[deps]
+
+source_file="res://pintura.mp3"
+dest_files=[ "res://.import/pintura.mp3-546ca3f3a3310f3e3834c7e85ce75713.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

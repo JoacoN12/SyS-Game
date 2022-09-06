@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sonido de arma.mp3-59cd06d4f17e852ff5d2c0e8c6886b9c.mp3str"
+
+[deps]
+
+source_file="res://sonido de arma.mp3"
+dest_files=[ "res://.import/sonido de arma.mp3-59cd06d4f17e852ff5d2c0e8c6886b9c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

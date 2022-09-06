@@ -1,0 +1,14 @@
+[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://fondo logo del team - copia.png" type="Texture" id=1]
+
+[resource]
+flags_unshaded = true
+params_cull_mode = 2
+albedo_texture = ExtResource( 1 )
+depth_enabled = true
+depth_scale = 0.05
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 1 )

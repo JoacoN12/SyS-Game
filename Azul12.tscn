@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Azul.gd" type="Script" id=1]
+[ext_resource path="res://azul4.tres" type="Material" id=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+direction = Vector3( 0, 50, 0 )
+spread = 0.0
+gravity = Vector3( 0, 2, 0 )
+initial_velocity = 3.0
+angular_velocity = -13.95
+linear_accel = -5.43
+radial_accel = 9.79
+tangential_accel = 2.0
+scale = 0.5
+
+[sub_resource type="CubeMesh" id=2]
+material = ExtResource( 2 )
+size = Vector3( 2, 15, 2 )
+
+[node name="Azul" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Particles" type="Particles" parent="."]
+amount = 20
+lifetime = 20.0
+visibility_aabb = AABB( -1.43559, -1.93672, -1.37954, 2.87118, 3.87345, 2.75909 )
+process_material = SubResource( 1 )
+draw_pass_1 = SubResource( 2 )

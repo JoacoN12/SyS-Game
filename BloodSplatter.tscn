@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sangre.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BloodSplatter.gd" type="Script" id=2]
+
+[node name="BloodSplatter" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Particles" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0173645 )
+emitting = false
+lifetime = 0.3
+one_shot = true
+speed_scale = 3.24
+visibility_aabb = AABB( -1.98852, -1.22512, -1.84158, 3.97704, 2.45023, 3.68316 )

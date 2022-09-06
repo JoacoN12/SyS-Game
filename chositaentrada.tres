@@ -1,0 +1,26 @@
+[gd_resource type="SpatialMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://ladrillos.png" type="Texture" id=1]
+[ext_resource path="res://ixdado.png" type="Texture" id=2]
+
+[resource]
+flags_unshaded = true
+params_cull_mode = 2
+albedo_color = Color( 0.607843, 0.278431, 0.027451, 1 )
+albedo_texture = ExtResource( 2 )
+depth_enabled = true
+depth_scale = -0.02
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 1 )
+refraction_enabled = true
+refraction_scale = 0.25
+refraction_texture = ExtResource( 1 )
+refraction_texture_channel = 0
+detail_enabled = true
+detail_mask = ExtResource( 1 )
+detail_blend_mode = 1
+detail_uv_layer = 0
+detail_albedo = ExtResource( 1 )
+detail_normal = ExtResource( 2 )

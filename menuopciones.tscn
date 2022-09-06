@@ -1,0 +1,178 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://menuopciones.gd" type="Script" id=1]
+[ext_resource path="res://turnback.png" type="Texture" id=2]
+[ext_resource path="res://extrasmenu.png" type="Texture" id=3]
+[ext_resource path="res://creditsmenu.png" type="Texture" id=4]
+[ext_resource path="res://cubofullscreen.png2.png" type="Texture" id=5]
+[ext_resource path="res://ballsmute.png" type="Texture" id=6]
+[ext_resource path="res://crosshair prueba.png" type="Texture" id=7]
+[ext_resource path="res://menumusica.mp3" type="AudioStream" id=8]
+[ext_resource path="res://mouseinvert.png" type="Texture" id=9]
+[ext_resource path="res://azuladomenu.png" type="Texture" id=11]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.560784, 0.419608, 0.419608, 1 )
+border_width_left = 161
+border_width_top = 30
+border_color = Color( 0.313726, 1, 0, 1 )
+corner_radius_top_left = 67
+corner_radius_top_right = 24
+corner_radius_bottom_right = 57
+corner_radius_bottom_left = 45
+expand_margin_left = 24.0
+shadow_size = 14
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.560784, 0.419608, 0.419608, 1 )
+border_width_left = 161
+border_width_top = 30
+border_color = Color( 0.937255, 0.345098, 0.0823529, 1 )
+corner_radius_top_left = 67
+corner_radius_top_right = 24
+corner_radius_bottom_right = 57
+corner_radius_bottom_left = 45
+expand_margin_left = 24.0
+shadow_size = 14
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[node name="opciones" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="negro" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="azul" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 46.0
+margin_right = -34.0
+margin_bottom = -43.0
+color = Color( 0.12549, 0, 1, 1 )
+
+[node name="Azuladomenu" type="Sprite" parent="."]
+position = Vector2( 963, 542 )
+scale = Vector2( 3.07667, 1.66 )
+texture = ExtResource( 11 )
+
+[node name="Extras" type="Button" parent="."]
+margin_left = 1046.0
+margin_top = 838.0
+margin_right = 2269.0
+margin_bottom = 1418.0
+rect_scale = Vector2( 0.319999, 0.279999 )
+icon = ExtResource( 3 )
+flat = true
+
+[node name="Credits" type="Button" parent="."]
+margin_left = 1437.0
+margin_top = 793.0
+margin_right = 2660.0
+margin_bottom = 1373.0
+rect_scale = Vector2( 0.362109, 0.4146 )
+icon = ExtResource( 4 )
+flat = true
+
+[node name="Fullscreen" type="Button" parent="."]
+margin_left = 1562.0
+margin_top = 558.0
+margin_right = 2101.0
+margin_bottom = 972.0
+rect_scale = Vector2( 0.56, 0.48 )
+icon = ExtResource( 5 )
+flat = true
+
+[node name="mute" type="Button" parent="."]
+margin_left = 1562.0
+margin_top = 77.0
+margin_right = 2101.0
+margin_bottom = 491.0
+rect_scale = Vector2( 0.56, 0.48 )
+icon = ExtResource( 6 )
+flat = true
+
+[node name="mute2" type="Button" parent="."]
+modulate = Color( 0, 0.576471, 1, 1 )
+margin_left = 1562.0
+margin_top = 320.0
+margin_right = 2101.0
+margin_bottom = 734.0
+rect_scale = Vector2( 0.56, 0.48 )
+icon = ExtResource( 6 )
+flat = true
+
+[node name="mouseinvert" type="Button" parent="."]
+margin_left = 1235.0
+margin_top = 558.0
+margin_right = 1774.0
+margin_bottom = 972.0
+rect_scale = Vector2( 0.56, 0.48 )
+icon = ExtResource( 9 )
+flat = true
+
+[node name="botones" type="VBoxContainer" parent="."]
+margin_left = 40.0
+margin_top = 793.0
+margin_right = 1224.0
+margin_bottom = 1239.0
+rect_scale = Vector2( 0.467685, 0.517213 )
+
+[node name="Back" type="Button" parent="botones"]
+margin_right = 1184.0
+margin_bottom = 446.0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="HSlider" type="HSlider" parent="."]
+margin_left = 1021.0
+margin_top = 77.0
+margin_right = 1854.0
+margin_bottom = 353.0
+rect_scale = Vector2( 0.632, 0.680001 )
+custom_icons/tick = ExtResource( 7 )
+custom_icons/grabber_disabled = ExtResource( 7 )
+custom_icons/grabber_highlight = ExtResource( 7 )
+custom_icons/grabber = ExtResource( 7 )
+custom_styles/slider = SubResource( 1 )
+max_value = 5.0
+step = 0.2
+value = 1.0
+
+[node name="HSlider2" type="HSlider" parent="."]
+margin_left = 1021.0
+margin_top = 320.0
+margin_right = 1854.0
+margin_bottom = 596.0
+rect_scale = Vector2( 0.632, 0.680001 )
+custom_icons/tick = ExtResource( 7 )
+custom_icons/grabber_disabled = ExtResource( 7 )
+custom_icons/grabber_highlight = ExtResource( 7 )
+custom_icons/grabber = ExtResource( 7 )
+custom_styles/slider = SubResource( 2 )
+max_value = 5.0
+step = 0.2
+value = 1.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -8.739
+autoplay = true
+
+[connection signal="pressed" from="Extras" to="." method="_on_Extras_pressed"]
+[connection signal="pressed" from="Credits" to="." method="_on_Credits_pressed"]
+[connection signal="pressed" from="Fullscreen" to="." method="_on_Fullscreen_pressed"]
+[connection signal="pressed" from="mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="mute2" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="mouseinvert" to="." method="_on_mouseinvert_pressed"]
+[connection signal="pressed" from="botones/Back" to="." method="_on_Back_pressed"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="value_changed" from="HSlider2" to="." method="_on_HSlider2_value_changed"]

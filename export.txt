@@ -1,0 +1,8 @@
+scons -j8 \
+bits=64 \
+p=windows \
+target=release_debug \
+optimize=size \
+tools=no \
+use_lto=yes \
+debug_symbols=no

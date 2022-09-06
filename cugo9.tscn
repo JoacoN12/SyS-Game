@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://cugo.gd" type="Script" id=1]
+[ext_resource path="res://pelotastext.tres" type="Material" id=2]
+
+[sub_resource type="SphereMesh" id=80]
+
+[sub_resource type="SphereShape" id=81]
+
+[node name="cugo9" type="RigidBody" groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -412.873, 127.155, 441.049 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )

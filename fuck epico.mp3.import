@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fuck epico.mp3-7161bb7bfe88dfb5f8032e83c57abc13.mp3str"
+
+[deps]
+
+source_file="res://fuck epico.mp3"
+dest_files=[ "res://.import/fuck epico.mp3-7161bb7bfe88dfb5f8032e83c57abc13.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

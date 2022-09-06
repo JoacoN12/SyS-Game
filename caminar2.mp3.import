@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/caminar2.mp3-670799e8d740312d08d6d39dc08cf42a.mp3str"
+
+[deps]
+
+source_file="res://caminar2.mp3"
+dest_files=[ "res://.import/caminar2.mp3-670799e8d740312d08d6d39dc08cf42a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
