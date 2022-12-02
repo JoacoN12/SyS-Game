@@ -15,7 +15,7 @@ dest_files=[ "res://.import/lenguatextura1 - copia.png-968802c552567a5bcadcd7f2d
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

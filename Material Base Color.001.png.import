@@ -15,7 +15,7 @@ dest_files=[ "res://.import/Material Base Color.001.png-6dd424bde2964199ef2c527d
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

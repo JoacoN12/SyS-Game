@@ -17,7 +17,7 @@ dest_files=[ "res://.import/scp sus scary.png-38a52042b7ff7ee9236ef1a5d6f8f17f.s
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

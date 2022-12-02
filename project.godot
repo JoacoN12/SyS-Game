@@ -11,15 +11,17 @@ config_version=4
 [application]
 
 config/name="ProjectSyS"
-run/main_scene="res://menuprincipal.tscn"
-boot_splash/image="res://joder tio chupadmela.png"
+run/main_scene="res://World.tscn"
+boot_splash/image="res://logointrosysgodot.png"
 boot_splash/fullsize=false
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://logo del exe.png"
 
 [autoload]
 
-Pausado="*res://PAUSADO.tscn"
+Global="*res://Global.gd"
+Cubodanito="*res://Cubodanito.tscn"
+Translate="*res://translate.gd"
 
 [compression]
 
@@ -31,13 +33,12 @@ settings/fps/force_fps=60
 
 [display]
 
-window/size/width=1280
-window/size/height=1080
+window/size/width=640
+window/size/height=360
 window/size/fullscreen=true
 window/dpi/allow_hidpi=true
 window/vsync/use_vsync=false
 window/stretch/mode="viewport"
-window/stretch/aspect="expand"
 
 [global]
 
@@ -152,14 +153,9 @@ ojos={
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":46,"unicode":0,"echo":false,"script":null)
  ]
 }
-inverta={
-"deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":47,"unicode":0,"echo":false,"script":null)
- ]
-}
 fallout={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":76,"unicode":0,"echo":false,"script":null)
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":47,"unicode":0,"echo":false,"script":null)
  ]
 }
 manito={
@@ -202,6 +198,21 @@ killbind={
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":75,"unicode":0,"echo":false,"script":null)
  ]
 }
+accessory={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":5,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+rightclick={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":3,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+translate={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":84,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [input_devices]
 
@@ -215,8 +226,8 @@ common/enable_pause_aware_picking=true
 
 quality/filters/sharpen_intensity=0.5
 quality/driver/fallback_to_gles2=true
-quality/directional_shadow/size=2048
-quality/shadow_atlas/size=2048
+quality/directional_shadow/size=512
+quality/shadow_atlas/size=512
 quality/shadows/filter_mode=0
 quality/reflections/texture_array_reflections=false
 quality/reflections/high_quality_ggx=false

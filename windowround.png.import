@@ -15,7 +15,7 @@ dest_files=[ "res://.import/windowround.png-3cb596a2dd037a2364f66f9131627d65.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

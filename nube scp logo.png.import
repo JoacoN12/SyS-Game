@@ -15,7 +15,7 @@ dest_files=[ "res://.import/nube scp logo.png-c62c4bf6ed9d2f8ec2ae2894a0ea4995.s
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

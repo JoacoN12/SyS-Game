@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://menuopciones.gd" type="Script" id=1]
 [ext_resource path="res://turnback.png" type="Texture" id=2]
@@ -7,8 +7,6 @@
 [ext_resource path="res://cubofullscreen.png2.png" type="Texture" id=5]
 [ext_resource path="res://ballsmute.png" type="Texture" id=6]
 [ext_resource path="res://crosshair prueba.png" type="Texture" id=7]
-[ext_resource path="res://menumusica.mp3" type="AudioStream" id=8]
-[ext_resource path="res://mouseinvert.png" type="Texture" id=9]
 [ext_resource path="res://azuladomenu.png" type="Texture" id=11]
 
 [sub_resource type="StyleBoxFlat" id=1]
@@ -110,15 +108,6 @@ rect_scale = Vector2( 0.56, 0.48 )
 icon = ExtResource( 6 )
 flat = true
 
-[node name="mouseinvert" type="Button" parent="."]
-margin_left = 1235.0
-margin_top = 558.0
-margin_right = 1774.0
-margin_bottom = 972.0
-rect_scale = Vector2( 0.56, 0.48 )
-icon = ExtResource( 9 )
-flat = true
-
 [node name="botones" type="VBoxContainer" parent="."]
 margin_left = 40.0
 margin_top = 793.0
@@ -162,17 +151,11 @@ max_value = 5.0
 step = 0.2
 value = 1.0
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 8 )
-volume_db = -8.739
-autoplay = true
-
 [connection signal="pressed" from="Extras" to="." method="_on_Extras_pressed"]
 [connection signal="pressed" from="Credits" to="." method="_on_Credits_pressed"]
 [connection signal="pressed" from="Fullscreen" to="." method="_on_Fullscreen_pressed"]
 [connection signal="pressed" from="mute" to="." method="_on_mute_pressed"]
 [connection signal="pressed" from="mute2" to="." method="_on_mute_pressed"]
-[connection signal="pressed" from="mouseinvert" to="." method="_on_mouseinvert_pressed"]
 [connection signal="pressed" from="botones/Back" to="." method="_on_Back_pressed"]
 [connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
 [connection signal="value_changed" from="HSlider2" to="." method="_on_HSlider2_value_changed"]

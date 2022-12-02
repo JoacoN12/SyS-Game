@@ -17,7 +17,7 @@ dest_files=[ "res://.import/when the imposter is lines!.png-15ac2d15c79ee372eafa
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

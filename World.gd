@@ -39,23 +39,3 @@ func _ready():
 	mesh_instance.create_trimesh_collision()
 	
 	add_child(mesh_instance)
-
-onready var raycast = $FirstPerson/head/Camera/RayCast
-onready var b_decal = preload("res://BulletDecal.tscn")
-onready var pintura = $FirstPerson/head/Camera/Hand/pinturado
-
-func _process(_delta):
-	if Input.is_action_pressed("paint"):
-		anim_paint.play("pintu")
-		var b = b_decal.instance()
-		if raycast.is_colliding():
-			raycast.get_collider().add_child(b)
-			b.global_transform.origin = raycast.get_collision_point()
-			b.look_at(raycast.get_collision_point() + raycast.get_collision_normal(), Vector3.ONE)
-			var target = raycast.get_collider()
-			if target.is_in_group("enigazo"):
-				pintura.play()
-
-onready var anim_paint = $FirstPerson/head/Camera/Hand/AnimationPlayer2
-
-onready var player = $FirstPerson

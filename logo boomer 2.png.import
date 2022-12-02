@@ -15,7 +15,7 @@ dest_files=[ "res://.import/logo boomer 2.png-991f0bf0fd5cdfc9881874e6f9c47549.s
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

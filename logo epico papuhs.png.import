@@ -15,7 +15,7 @@ dest_files=[ "res://.import/logo epico papuhs.png-16979586442b1b2e0610cddff4fae0
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

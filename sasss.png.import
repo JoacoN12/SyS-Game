@@ -15,7 +15,7 @@ dest_files=[ "res://.import/sasss.png-3a253bf0c8fd8dbd29f30e198431e49a.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

@@ -15,7 +15,7 @@ dest_files=[ "res://.import/menukick2.png-c9963310fb1f8aff010dac9b64e686f0.stex"
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

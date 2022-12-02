@@ -15,7 +15,7 @@ dest_files=[ "res://.import/idea logo xd.png-1e1e3d4176715e1852138b5a51d34355.st
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

@@ -1,0 +1,380 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://gatop8.png" type="Texture" id=1]
+[ext_resource path="res://gatorojo.tres" type="Material" id=2]
+
+[sub_resource type="PlaneMesh" id=67]
+
+[sub_resource type="SpatialMaterial" id=97]
+flags_transparent = true
+flags_unshaded = true
+params_depth_draw_mode = 3
+params_billboard_keep_scale = true
+albedo_color = Color( 0, 0.109804, 1, 1 )
+albedo_texture = ExtResource( 1 )
+
+[node name="gatosgrada" type="Node"]
+
+[node name="rojo" type="Node" parent="."]
+
+[node name="Gatop4" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -186.597, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop5" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -183.554, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop6" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -180.369, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop7" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -177.238, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop8" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -173.913, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop9" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -170.647, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop10" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -167.489, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop11" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -163.971, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop12" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -160.812, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop13" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -157.829, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop16" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -186.597, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop17" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -183.554, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop18" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -180.369, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop19" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -177.238, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop20" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -173.913, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop21" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -170.647, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop22" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -167.489, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop23" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -163.971, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop24" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -160.812, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop25" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -157.829, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop28" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -186.597, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop29" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -183.554, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop30" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -180.369, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop31" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -177.238, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop32" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -173.913, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop33" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -170.647, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop34" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -167.489, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop35" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -163.971, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop36" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -160.812, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop37" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -157.829, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = ExtResource( 2 )
+
+[node name="Gatop38" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -148.638, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop39" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -145.609, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop40" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -142.347, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop41" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -139.304, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop42" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -136.119, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop43" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -132.987, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop44" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -129.662, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop45" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -126.397, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop46" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -123.239, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop47" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -119.721, 98.2685, -581.396 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop50" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -148.638, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop51" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -145.609, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop52" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -142.347, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop53" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -139.304, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop54" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -136.119, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop55" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -132.987, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop56" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -129.662, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop57" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -126.397, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop58" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -123.239, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop59" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -119.721, 103.603, -585.006 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop62" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -148.638, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop63" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -145.609, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop64" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -142.347, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop65" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -139.304, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop66" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -136.119, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop67" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -132.987, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop68" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -129.662, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop69" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -126.397, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop70" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -123.239, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="Gatop71" type="MeshInstance" parent="rojo"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-07, -1.2, 0, 10, -5.24537e-08, -119.721, 108.972, -589.763 )
+mesh = SubResource( 67 )
+skeleton = NodePath("../../../..")
+material/0 = SubResource( 97 )
+
+[node name="azul" type="Node" parent="."]

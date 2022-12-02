@@ -20,6 +20,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=4]
+params_billboard_keep_scale = true
 albedo_color = Color( 0, 0, 0, 1 )
 
 [sub_resource type="ArrayMesh" id=5]
@@ -37,6 +38,7 @@ surfaces/0 = {
 
 [sub_resource type="SpatialMaterial" id=6]
 flags_unshaded = true
+params_billboard_keep_scale = true
 
 [sub_resource type="BoxShape" id=2]
 extents = Vector3( 1.07508, 6.16007, 3.5495 )

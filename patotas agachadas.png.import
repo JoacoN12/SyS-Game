@@ -15,7 +15,7 @@ dest_files=[ "res://.import/patotas agachadas.png-b4e10dd1d76d9fed37dd18eecb90dd
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

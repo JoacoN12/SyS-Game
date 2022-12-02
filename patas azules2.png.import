@@ -15,7 +15,7 @@ dest_files=[ "res://.import/patas azules2.png-f9c05a05d4140c7c470a08254e14a64c.s
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

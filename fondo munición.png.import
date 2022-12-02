@@ -15,7 +15,7 @@ dest_files=[ "res://.import/fondo munición.png-43886a8ab6f7b59c9a6bbc2c54baa159
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

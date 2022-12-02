@@ -15,7 +15,7 @@ dest_files=[ "res://.import/SPOILER_zzz.png-05e4a638dd2e6f24332d58e584f47ecb.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

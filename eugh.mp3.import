@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/eugh.mp3-62f044fb27c0d9eb93441c9de8a4aa88.mp3str"
+
+[deps]
+
+source_file="res://eugh.mp3"
+dest_files=[ "res://.import/eugh.mp3-62f044fb27c0d9eb93441c9de8a4aa88.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

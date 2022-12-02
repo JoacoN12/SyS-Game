@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://tophatkitty.png" type="Texture" id=1]
+
+[sub_resource type="PlaneMesh" id=124]
+
+[sub_resource type="SpatialMaterial" id=127]
+flags_transparent = true
+flags_unshaded = true
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="ConcavePolygonShape" id=126]
+data = PoolVector3Array( 1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1 )
+
+[node name="GatoHatBox" type="MeshInstance"]
+transform = Transform( 0.494975, 0.707107, -1.54543e-08, 0, -4.37114e-08, -0.5, -0.494975, 0.707107, -1.54543e-08, -47.5718, 39.575, -83.2522 )
+mesh = SubResource( 124 )
+material/0 = SubResource( 127 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+shape = SubResource( 126 )

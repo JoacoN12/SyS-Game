@@ -15,7 +15,7 @@ dest_files=[ "res://.import/pastafrola - copia.png-0c905e6e408854d08411baecf7a3e
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

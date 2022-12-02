@@ -15,7 +15,7 @@ dest_files=[ "res://.import/patas perro.png-064e50f7082d45d22956b8790217225e.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

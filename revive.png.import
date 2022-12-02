@@ -17,7 +17,7 @@ dest_files=[ "res://.import/revive.png-31e91ffddf4694dcc8fa9ffb5ca6dc98.s3tc.ste
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

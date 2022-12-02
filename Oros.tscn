@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://oritosfont.tres" type="DynamicFont" id=1]
+
+[node name="Oros" type="Label"]
+margin_left = 1729.0
+margin_top = 148.0
+margin_right = 1875.0
+margin_bottom = 299.0
+custom_colors/font_color = Color( 1, 0.913725, 0, 1 )
+custom_fonts/font = ExtResource( 1 )

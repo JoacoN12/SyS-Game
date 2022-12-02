@@ -15,7 +15,7 @@ dest_files=[ "res://.import/menu arrows.png-fcce38f7e5c9cd8297b6841edbe0891f.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

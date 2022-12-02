@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://gatoalbanil2.png" type="Texture" id=1]
+
+[sub_resource type="PlaneMesh" id=124]
+
+[sub_resource type="SpatialMaterial" id=125]
+flags_transparent = true
+flags_unshaded = true
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="ConcavePolygonShape" id=126]
+data = PoolVector3Array( 1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1 )
+
+[node name="GatoAlbanil2" type="MeshInstance"]
+transform = Transform( 1.73205, 0.5, 5.96046e-08, 0, 2.98023e-08, -2.2, -1, 0.866025, 1.03238e-07, -140.922, 96.8939, -482.202 )
+mesh = SubResource( 124 )
+material/0 = SubResource( 125 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+shape = SubResource( 126 )

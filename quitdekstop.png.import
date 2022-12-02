@@ -15,7 +15,7 @@ dest_files=[ "res://.import/quitdekstop.png-9a4b39d1285e2bdf4cbc963ff491d4c1.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

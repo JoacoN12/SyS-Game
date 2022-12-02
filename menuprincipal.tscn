@@ -1,22 +1,24 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://menuprincipal.gd" type="Script" id=1]
 [ext_resource path="res://menustart1.png" type="Texture" id=2]
 [ext_resource path="res://menukick1.png" type="Texture" id=3]
 [ext_resource path="res://menucustom1.png" type="Texture" id=4]
 [ext_resource path="res://logo epico papuhs.png" type="Texture" id=5]
-[ext_resource path="res://menuselect.mp3" type="AudioStream" id=6]
-[ext_resource path="res://wow menu.png" type="Texture" id=7]
-[ext_resource path="res://wowguy.png" type="Texture" id=8]
-[ext_resource path="res://menu arrows.png" type="Texture" id=9]
-[ext_resource path="res://fakebackground.png" type="Texture" id=10]
-[ext_resource path="res://graphicdesign.png" type="Texture" id=11]
+
+[sub_resource type="QuadMesh" id=1]
+
+[sub_resource type="ViewportTexture" id=2]
+viewport_path = NodePath("Menu/Viewport")
 
 [node name="Menu" type="Control"]
 pause_mode = 2
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
 [node name="negro" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -33,11 +35,14 @@ margin_bottom = -43.0
 color = Color( 0.12549, 0, 1, 1 )
 
 [node name="botones" type="VBoxContainer" parent="."]
-margin_left = 64.0
-margin_top = 371.0
-margin_right = 836.0
-margin_bottom = 1894.0
+margin_left = 44.0
+margin_top = 90.0
+margin_right = 816.0
+margin_bottom = 1613.0
 rect_scale = Vector2( 0.747685, 0.437213 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
 [node name="Play" type="Button" parent="botones"]
 margin_right = 772.0
@@ -71,34 +76,11 @@ margin_right = 1837.0
 margin_bottom = 676.0
 texture = ExtResource( 5 )
 
-[node name="Fakebackground" type="Sprite" parent="."]
-position = Vector2( 938.5, 396.5 )
-scale = Vector2( 0.544792, 0.690625 )
-texture = ExtResource( 10 )
-
-[node name="WowMenu" type="Sprite" parent="."]
-position = Vector2( 1200, 874 )
-scale = Vector2( 0.806661, 0.929623 )
-texture = ExtResource( 7 )
-
-[node name="boop" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 6 )
-
-[node name="Wowguy" type="Sprite" parent="."]
-position = Vector2( 915.894, 439.887 )
-rotation = 1.0472
-scale = Vector2( 0.828847, 0.542971 )
-texture = ExtResource( 8 )
-
-[node name="MenuArrows" type="Sprite" parent="."]
-position = Vector2( 376, 236 )
-scale = Vector2( 0.862464, 0.944444 )
-texture = ExtResource( 9 )
-
-[node name="Graphicdesign" type="Sprite" parent="."]
-position = Vector2( 1331, 953 )
-scale = Vector2( 0.650916, 0.682796 )
-texture = ExtResource( 11 )
+[node name="Menu2D" type="MeshInstance2D" parent="."]
+position = Vector2( 320, 180 )
+scale = Vector2( 640, 360 )
+mesh = SubResource( 1 )
+texture = SubResource( 2 )
 
 [connection signal="pressed" from="botones/Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="botones/Settings" to="." method="_on_Settings_pressed"]

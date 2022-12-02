@@ -22,10 +22,6 @@ func _on_HSlider_value_changed(value):
 		linear2db(value)
 	)
 
-var mouse_sensitivity = 0.05
-func _on_mouseinvert_pressed(event):
-	pass
-
 func _on_HSlider2_value_changed(value):
 	AudioServer.set_bus_volume_db(
 		AudioServer.get_bus_index("Music"),

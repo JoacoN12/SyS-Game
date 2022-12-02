@@ -15,7 +15,7 @@ dest_files=[ "res://.import/rebirth aaa con coso negro logo.png-c2a229fdfcbe516b
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

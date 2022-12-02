@@ -15,7 +15,7 @@ dest_files=[ "res://.import/menustart1.png-c41f428b5b04691e27a06d07d9109410.stex
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

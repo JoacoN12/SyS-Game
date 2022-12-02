@@ -17,7 +17,7 @@ dest_files=[ "res://.import/pajaro loco.png-c82711a3801c546bee800092ea871177.s3t
 [params]
 
 compress/mode=2
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

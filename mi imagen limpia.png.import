@@ -15,7 +15,7 @@ dest_files=[ "res://.import/mi imagen limpia.png-c8314bcfee435b168b5bf6d7dadc573
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

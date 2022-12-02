@@ -15,7 +15,7 @@ dest_files=[ "res://.import/perro negro.png-2eb6f2fa3878befa4ccc9f73fcb36ac9.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

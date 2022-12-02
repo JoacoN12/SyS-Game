@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/precaution.mp3-9b44c1e866c1b0694246494edccc437f.mp3str"
+
+[deps]
+
+source_file="res://precaution.mp3"
+dest_files=[ "res://.import/precaution.mp3-9b44c1e866c1b0694246494edccc437f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

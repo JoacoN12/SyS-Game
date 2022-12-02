@@ -15,7 +15,7 @@ dest_files=[ "res://.import/grilletos.png-59dc11705d3bced6492b22c1b1593d28.stex"
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

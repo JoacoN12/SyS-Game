@@ -15,7 +15,7 @@ dest_files=[ "res://.import/fuck you lol.png-9503ba38f61ba71924a6f28d1dbc94de.st
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

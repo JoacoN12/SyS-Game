@@ -15,7 +15,7 @@ dest_files=[ "res://.import/pistolita animación normal.png-37e01a7c79372f1b530f
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

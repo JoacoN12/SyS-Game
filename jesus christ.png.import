@@ -15,7 +15,7 @@ dest_files=[ "res://.import/jesus christ.png-2f1698e3f7a976a068b54d3228cffe05.st
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

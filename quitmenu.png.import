@@ -15,7 +15,7 @@ dest_files=[ "res://.import/quitmenu.png-7c279fc5daa6c8ce9942400bf09abacf.stex" 
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

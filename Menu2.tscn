@@ -1,0 +1,114 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://default_env.tres" type="Environment" id=1]
+[ext_resource path="res://Menu.gd" type="Script" id=2]
+
+[sub_resource type="QuadMesh" id=170]
+resource_local_to_scene = true
+
+[sub_resource type="ViewportTexture" id=171]
+viewport_path = NodePath("Menu/Viewport")
+
+[sub_resource type="SpatialMaterial" id=172]
+resource_local_to_scene = true
+flags_unshaded = true
+albedo_texture = SubResource( 171 )
+
+[sub_resource type="Animation" id=177]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Viewport/Camera:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Viewport/Camera:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 199.095, -167.727 ) ]
+}
+
+[sub_resource type="Animation" id=178]
+resource_name = "Spinning"
+length = 25.0
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("Viewport/Camera:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -90, 0, 0 ), Vector3( -90, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Viewport/Camera:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 2385.09, 0 ) ]
+}
+
+[sub_resource type="BoxShape" id=175]
+extents = Vector3( 1, 0.1, 10 )
+
+[sub_resource type="CubeMesh" id=176]
+
+[node name="Menu2" type="Spatial"]
+transform = Transform( 15, 0, 0, 0, 10, 0, 0, 0, 1, 23.9119, -39.4127, 30.4681 )
+script = ExtResource( 2 )
+
+[node name="Menu" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -21.4777, 0 )
+mesh = SubResource( 170 )
+skeleton = NodePath("")
+material/0 = SubResource( 172 )
+
+[node name="Viewport" type="Viewport" parent="."]
+size = Vector2( 1280, 720 )
+fxaa = true
+sharpen_intensity = 1.0
+keep_3d_linear = true
+render_target_v_flip = true
+
+[node name="Camera" type="Camera" parent="Viewport"]
+transform = Transform( 0.928917, -0.370287, -1.61857e-08, 0, -4.37114e-08, 1, -0.370287, -0.928917, -4.06043e-08, 0, 2385.09, 0 )
+environment = ExtResource( 1 )
+fov = 110.0
+far = 4500.0
+
+[node name="Cameraspin" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 177 )
+anims/Spinning = SubResource( 178 )
+
+[node name="Floor" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -22.136, 0 )
+
+[node name="Floor" type="CollisionShape" parent="Floor"]
+shape = SubResource( 175 )
+
+[node name="Floor" type="MeshInstance" parent="Floor/Floor"]
+transform = Transform( 1, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0 )
+mesh = SubResource( 176 )

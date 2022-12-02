@@ -1,0 +1,17 @@
+[gd_resource type="SpatialMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://gat.png" type="Texture" id=1]
+
+[sub_resource type="SpatialMaterial" id=96]
+flags_unshaded = true
+params_cull_mode = 1
+params_grow = true
+params_grow_amount = 0.03
+albedo_color = Color( 0, 0.905882, 1, 1 )
+
+[resource]
+next_pass = SubResource( 96 )
+flags_unshaded = true
+params_diffuse_mode = 4
+params_specular_mode = 3
+albedo_texture = ExtResource( 1 )

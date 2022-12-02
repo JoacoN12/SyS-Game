@@ -15,7 +15,7 @@ dest_files=[ "res://.import/remake hd critico.png-2eb2312c31350562f922e3c244127f
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

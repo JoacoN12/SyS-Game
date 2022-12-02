@@ -15,7 +15,7 @@ dest_files=[ "res://.import/fondo vida.png-e6bb09eaceba01b4cd68d4708790b9dc.stex
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

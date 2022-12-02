@@ -15,7 +15,7 @@ dest_files=[ "res://.import/fondo rojo xk 1.png-bf3aa7966fd4972a691fa1b6c4835231
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

@@ -15,7 +15,7 @@ dest_files=[ "res://.import/pulpadomenu2.png-18ca63ac49ba73cf2daaefae0a676f04.st
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

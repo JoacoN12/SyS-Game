@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://gatop8.png" type="Texture" id=1]
+
+[sub_resource type="PlaneMesh" id=109]
+
+[sub_resource type="SpatialMaterial" id=114]
+flags_transparent = true
+flags_unshaded = true
+params_depth_draw_mode = 3
+params_billboard_keep_scale = true
+albedo_color = Color( 0, 1, 0.882353, 1 )
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="ConcavePolygonShape" id=111]
+data = PoolVector3Array( 1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1 )
+
+[node name="GatoCasaLadrillo" type="MeshInstance"]
+transform = Transform( 3.61984, 8.95908, -4.04505e-06, -1.27898e-13, -1.0063e-06, -1.2, 2.5034e-06, 2.76257, -1.38743e-06, -68.212, 16.0018, -143.055 )
+mesh = SubResource( 109 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 114 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 5.42101e-20, 0, 1, 0, 0, 0 )
+shape = SubResource( 111 )

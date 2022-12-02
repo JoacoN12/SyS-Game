@@ -15,7 +15,7 @@ dest_files=[ "res://.import/negro.png-522abea81e3235179a8e69bcb20113dc.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

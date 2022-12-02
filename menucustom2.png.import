@@ -15,7 +15,7 @@ dest_files=[ "res://.import/menucustom2.png-7afae69bb9be4854beb9bc816204a151.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

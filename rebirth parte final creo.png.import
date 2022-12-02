@@ -15,7 +15,7 @@ dest_files=[ "res://.import/rebirth parte final creo.png-14cb89bd9920112ccc47ff2
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

@@ -15,7 +15,7 @@ dest_files=[ "res://.import/serpents hand all designs.png-3d494af295b1fdb735a15a
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

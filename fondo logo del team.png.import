@@ -15,7 +15,7 @@ dest_files=[ "res://.import/fondo logo del team.png-5ddba7704cb8a0d0d0cd141c8073
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=1

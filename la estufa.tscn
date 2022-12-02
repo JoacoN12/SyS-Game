@@ -5,9 +5,10 @@
 [ext_resource path="res://pastafrola.png" type="Texture" id=3]
 
 [sub_resource type="SpatialMaterial" id=2]
-flags_unshaded = true
 albedo_color = Color( 1, 0.658824, 0.258824, 1 )
 albedo_texture = ExtResource( 2 )
+metallic_specular = 0.27
+roughness = 0.0
 depth_enabled = true
 depth_scale = 0.01
 depth_deep_parallax = false

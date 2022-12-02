@@ -15,7 +15,7 @@ dest_files=[ "res://.import/liena.png-78c3c8b7f37876b240db06cf0750ead0.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

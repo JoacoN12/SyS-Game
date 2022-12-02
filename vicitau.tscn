@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://vicitau.tres" type="DynamicFont" id=1]
+
+[node name="Label" type="Label"]
+anchor_right = 0.202
+margin_left = -73.0
+margin_top = 818.0
+margin_right = 62.0
+margin_bottom = 969.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 1 )
+align = 1

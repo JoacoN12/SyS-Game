@@ -1,0 +1,1271 @@
+[gd_scene load_steps=90 format=2]
+
+[ext_resource path="res://default_env.tres" type="Environment" id=1]
+[ext_resource path="res://caminar 4.mp3" type="AudioStream" id=2]
+[ext_resource path="res://patas azules2.png" type="Texture" id=3]
+[ext_resource path="res://frrr.mp3" type="AudioStream" id=4]
+[ext_resource path="res://fondo munición.png" type="Texture" id=5]
+[ext_resource path="res://agacho.mp3" type="AudioStream" id=6]
+[ext_resource path="res://fuck you lol.png" type="Texture" id=7]
+[ext_resource path="res://salto.mp3" type="AudioStream" id=8]
+[ext_resource path="res://pistolita animación presionada.png" type="Texture" id=9]
+[ext_resource path="res://patotas paradas.png" type="Texture" id=10]
+[ext_resource path="res://patotas agachadas.png" type="Texture" id=11]
+[ext_resource path="res://Camera.gd" type="Script" id=12]
+[ext_resource path="res://elpepe.gd" type="Script" id=13]
+[ext_resource path="res://movidito.gd" type="Script" id=14]
+[ext_resource path="res://Oros.gd" type="Script" id=15]
+[ext_resource path="res://sonido pistola nuevo.mp3" type="AudioStream" id=16]
+[ext_resource path="res://fondo vida.png" type="Texture" id=17]
+[ext_resource path="res://precaution.mp3" type="AudioStream" id=18]
+[ext_resource path="res://pinturillo.mp3" type="AudioStream" id=19]
+[ext_resource path="res://roce+.mp3" type="AudioStream" id=20]
+[ext_resource path="res://pintura.mp3" type="AudioStream" id=21]
+[ext_resource path="res://vicitau.gd" type="Script" id=22]
+[ext_resource path="res://quitdekstop.png" type="Texture" id=23]
+[ext_resource path="res://quitmenu.png" type="Texture" id=24]
+[ext_resource path="res://gun12.dae" type="PackedScene" id=25]
+[ext_resource path="res://vicitau.tscn" type="PackedScene" id=26]
+[ext_resource path="res://UIaccesorios.tscn" type="PackedScene" id=27]
+[ext_resource path="res://Oros.tscn" type="PackedScene" id=28]
+[ext_resource path="res://FPScounter.tscn" type="PackedScene" id=29]
+[ext_resource path="res://amarillo.tres" type="Material" id=30]
+[ext_resource path="res://manos.tres" type="Material" id=31]
+[ext_resource path="res://patas azules agachadasd2.png" type="Texture" id=32]
+[ext_resource path="res://playerhealthiconlowhealth.png" type="Texture" id=33]
+[ext_resource path="res://crosshair prueba.png" type="Texture" id=34]
+[ext_resource path="res://oritossimbolos.png" type="Texture" id=35]
+[ext_resource path="res://eugh.mp3" type="AudioStream" id=36]
+[ext_resource path="res://dañoojito.png" type="Texture" id=37]
+[ext_resource path="res://dañopresente4.png" type="Texture" id=38]
+[ext_resource path="res://playerhealthicon.png" type="Texture" id=39]
+[ext_resource path="res://pausebackgroundsys.png" type="Texture" id=40]
+[ext_resource path="res://backsyspause.png" type="Texture" id=41]
+[ext_resource path="res://headcharactersys.png" type="Texture" id=42]
+[ext_resource path="res://spinesyscharacter.png" type="Texture" id=43]
+[ext_resource path="res://explosionsound.mp3" type="AudioStream" id=44]
+[ext_resource path="res://dañopresente.png" type="Texture" id=45]
+[ext_resource path="res://hittedsound.mp3" type="AudioStream" id=46]
+[ext_resource path="res://translate4.png" type="Texture" id=47]
+[ext_resource path="res://translate3.png" type="Texture" id=48]
+[ext_resource path="res://translatetext.png" type="Texture" id=49]
+
+[sub_resource type="CapsuleShape" id=2]
+radius = 0.5
+height = 2.5
+
+[sub_resource type="CubeMesh" id=13]
+
+[sub_resource type="SpatialMaterial" id=18]
+albedo_color = Color( 0, 1, 0.670588, 1 )
+emission_enabled = true
+emission = Color( 0, 1, 0.952941, 1 )
+emission_energy = 4.59
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="CubeMesh" id=17]
+material = SubResource( 18 )
+
+[sub_resource type="SpatialMaterial" id=27]
+flags_unshaded = true
+albedo_color = Color( 1, 0, 0, 1 )
+
+[sub_resource type="CubeMesh" id=28]
+material = SubResource( 27 )
+
+[sub_resource type="PlaneMesh" id=32]
+
+[sub_resource type="SpatialMaterial" id=33]
+flags_transparent = true
+params_diffuse_mode = 4
+params_specular_mode = 3
+params_depth_draw_mode = 3
+albedo_texture = ExtResource( 9 )
+metallic = 1.0
+emission_enabled = true
+emission = Color( 0, 0, 0, 1 )
+emission_energy = 0.84
+emission_operator = 0
+emission_on_uv2 = false
+emission_texture = ExtResource( 9 )
+
+[sub_resource type="Animation" id=181]
+step = 0.05
+tracks/0/type = "audio"
+tracks/0/path = NodePath("../fockudo")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"clips": [  ],
+"times": PoolRealArray(  )
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../../elementosHUD/FuckYouLol:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=182]
+resource_name = "fack"
+length = 0.4
+step = 0.05
+tracks/0/type = "audio"
+tracks/0/path = NodePath("../fockudo")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 4 )
+} ],
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../../elementosHUD/FuckYouLol:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.05, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+
+[sub_resource type="Animation" id=183]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("gun12:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0.619667, -0.778788, -0.422105 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("gun12/disparo:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("gun12/mano2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("gun12/mano1:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=184]
+resource_name = "fair"
+length = 0.1
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("gun12:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0.619667, -0.778788, -0.651885 ), Vector3( 0.619667, -0.778788, -0.422105 ), Vector3( 0.619667, -0.778788, -0.651885 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("chutazo")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0465572,
+"start_offset": 0.0,
+"stream": ExtResource( 16 )
+} ],
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("gun12/disparo:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("gun12/mano2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("gun12/mano1:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=185]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 1.94536, -174.495, -6.2274 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("pintura:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=186]
+resource_name = "pintu"
+length = 0.1
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -5.213, -174.495, -6.227 ), Vector3( -11.845, -174.495, -6.227 ), Vector3( -5.213, -174.495, -6.227 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../bala azul")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0325446,
+"start_offset": 0.03,
+"stream": ExtResource( 19 )
+} ],
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("pintura:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="BoxShape" id=61]
+extents = Vector3( 2.45793, 2.94153, 2.54169 )
+
+[sub_resource type="PlaneMesh" id=39]
+
+[sub_resource type="SpatialMaterial" id=40]
+flags_transparent = true
+flags_unshaded = true
+params_diffuse_mode = 4
+params_specular_mode = 3
+params_depth_draw_mode = 3
+albedo_texture = ExtResource( 10 )
+
+[sub_resource type="SpatialMaterial" id=41]
+flags_transparent = true
+flags_unshaded = true
+params_diffuse_mode = 4
+params_specular_mode = 3
+params_depth_draw_mode = 3
+albedo_texture = ExtResource( 11 )
+
+[sub_resource type="SpatialMaterial" id=54]
+flags_transparent = true
+flags_unshaded = true
+params_depth_draw_mode = 3
+albedo_texture = ExtResource( 32 )
+
+[sub_resource type="SpatialMaterial" id=56]
+flags_transparent = true
+flags_unshaded = true
+params_depth_draw_mode = 3
+albedo_texture = ExtResource( 3 )
+
+[sub_resource type="Animation" id=187]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("patas2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("patas:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=188]
+resource_name = "patosas"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("patas2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("patas:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 23827.9 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=189]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("../../../pataszules2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=190]
+resource_name = "soquete"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("../../../pataszules2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=191]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("head/Camera:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, -0.188488, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("head/Camera:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( -1.738, -3.949, -1.112 ) ]
+}
+
+[sub_resource type="Animation" id=192]
+resource_name = "movicabezi"
+length = 0.5
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("head/Camera:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("head/Camera:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.25, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -0.166, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=193]
+resource_name = "movicabeziderecha"
+length = 0.4
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("head/Camera:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1.6245, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, -2.1 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=194]
+resource_name = "movicabeziizquiera"
+length = 0.4
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("head/Camera:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4 ),
+"transitions": PoolRealArray( 1, 1.6245, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 2.1 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=195]
+resource_name = "saltocab"
+length = 0.6
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("head/Camera:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -0.587, 0.47 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="PlaneMesh" id=196]
+
+[sub_resource type="SpatialMaterial" id=197]
+flags_transparent = true
+flags_unshaded = true
+albedo_texture = ExtResource( 42 )
+
+[sub_resource type="SpatialMaterial" id=198]
+flags_transparent = true
+flags_unshaded = true
+albedo_texture = ExtResource( 43 )
+
+[sub_resource type="Animation" id=199]
+resource_name = "Deathanimation"
+length = 2.3
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("../head/Camera:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, -0.188488, 0 ), Vector3( -3.54376, 1.12492, -3.07478 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../head/Camera:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -1.738, -3.949, -1.112 ), Vector3( -11.3887, -111.524, 2.67101 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../head/Camera/Hand:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Particles:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1.9, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath(".:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("../head/Camera/elementosHUD:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("../head/Camera/Hand/gun12:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "audio"
+tracks/7/path = NodePath("explosionmuerte")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 44 )
+} ],
+"times": PoolRealArray( 1.6 )
+}
+
+[sub_resource type="Animation" id=207]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("../head/Camera:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, -0.188488, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../head/Camera:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( -1.738, -3.949, -1.112 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../head/Camera/Hand:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Particles:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath(".:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("gun12:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("../head/Camera/elementosHUD:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("../head/Camera/Hand/gun12:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="ParticlesMaterial" id=200]
+emission_shape = 2
+emission_box_extents = Vector3( 1, 1, 1 )
+direction = Vector3( 10, 10, 10 )
+gravity = Vector3( 0, -16.402, 0 )
+initial_velocity = 0.58
+angular_velocity = 0.54
+linear_accel = 7.92
+radial_accel = 1.21
+tangential_accel = 8.23
+tangential_accel_random = 0.69
+
+[sub_resource type="SpatialMaterial" id=202]
+albedo_color = Color( 1, 0, 0, 1 )
+emission_enabled = true
+emission = Color( 1, 0.819608, 0, 1 )
+emission_energy = 7.52
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="CubeMesh" id=201]
+material = SubResource( 202 )
+size = Vector3( 0.5, 0.5, 0.5 )
+
+[sub_resource type="SpatialMaterial" id=205]
+flags_unshaded = true
+albedo_color = Color( 1, 0, 0, 1 )
+
+[sub_resource type="CubeMesh" id=204]
+material = SubResource( 205 )
+size = Vector3( 0.5, 0.5, 0.5 )
+
+[sub_resource type="CubeMesh" id=206]
+material = SubResource( 205 )
+size = Vector3( 0.5, 0.5, 0.5 )
+
+[node name="FirstPerson2" type="KinematicBody" groups=["Player"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.13758, 3.66732, 33.9332 )
+collision_mask = 7
+script = ExtResource( 13 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0 )
+shape = SubResource( 2 )
+
+[node name="head" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.953861, 0 )
+
+[node name="Camera" type="Camera" parent="head"]
+transform = Transform( 0.997397, 0.0214491, -0.0688368, -0.0193979, 0.999352, 0.0303292, 0.0694427, -0.028915, 0.997167, 0, -0.188488, 0 )
+environment = ExtResource( 1 )
+fov = 110.0
+near = 0.1
+far = 3200.0
+script = ExtResource( 12 )
+
+[node name="elementosHUD" type="CanvasLayer" parent="head/Camera"]
+pause_mode = 2
+
+[node name="FuckYouLol" type="Sprite" parent="head/Camera/elementosHUD"]
+pause_mode = 2
+position = Vector2( 189, 258 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 7 )
+
+[node name="Danopresente4" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 324, 181 )
+scale = Vector2( 0.42, 0.43 )
+texture = ExtResource( 38 )
+
+[node name="Playerhealthicon" type="Sprite" parent="head/Camera/elementosHUD"]
+position = Vector2( 57, 302 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 39 )
+
+[node name="Playerhealthiconlowhealth" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 56, 301 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 33 )
+
+[node name="musicaa" type="AudioStreamPlayer" parent="head/Camera/elementosHUD/Playerhealthiconlowhealth"]
+stream = ExtResource( 18 )
+volume_db = -0.874
+pitch_scale = 1.17
+bus = "Music"
+
+[node name="PlayerHealthSong" type="Timer" parent="head/Camera/elementosHUD/Playerhealthiconlowhealth"]
+process_mode = 0
+wait_time = 0.1
+one_shot = true
+
+[node name="Label2" parent="head/Camera/elementosHUD" instance=ExtResource( 26 )]
+margin_left = 27.0
+margin_top = 279.0
+margin_right = -53.28
+margin_bottom = 324.0
+script = ExtResource( 22 )
+
+[node name="Oritossimbolos" type="Sprite" parent="head/Camera/elementosHUD"]
+position = Vector2( 613, 49 )
+scale = Vector2( 0.063, 0.063 )
+texture = ExtResource( 35 )
+
+[node name="UIaccesorios" parent="head/Camera/elementosHUD" instance=ExtResource( 27 )]
+position = Vector2( 551, 304 )
+scale = Vector2( 0.35, 0.35 )
+
+[node name="Translate3" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 311, 19 )
+scale = Vector2( 0.13, 0.13 )
+texture = ExtResource( 48 )
+
+[node name="Translate4" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 311, 19 )
+scale = Vector2( 0.13, 0.13 )
+texture = ExtResource( 47 )
+
+[node name="Translatetext" type="Sprite" parent="head/Camera/elementosHUD/Translate4"]
+position = Vector2( 30.7693, 230.769 )
+scale = Vector2( 0.615385, 0.615385 )
+texture = ExtResource( 49 )
+
+[node name="Oros" parent="head/Camera/elementosHUD" instance=ExtResource( 28 )]
+margin_left = 577.0
+margin_top = 39.0
+margin_right = 589.0
+margin_bottom = 59.0
+script = ExtResource( 15 )
+
+[node name="Danoojito" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 323, 181 )
+scale = Vector2( 0.42, 0.428 )
+texture = ExtResource( 37 )
+
+[node name="rojotim" type="Timer" parent="head/Camera/elementosHUD/Danoojito"]
+wait_time = 0.22
+one_shot = true
+
+[node name="eughrojo" type="AudioStreamPlayer" parent="head/Camera/elementosHUD/Danoojito"]
+stream = ExtResource( 36 )
+bus = "SFX"
+
+[node name="FondoMunición" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 1725, 935 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 5 )
+
+[node name="FondoVida" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 197, 989 )
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 17 )
+
+[node name="Control" type="Control" parent="head/Camera/elementosHUD"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+
+[node name="CrosshairPrueba" type="Sprite" parent="head/Camera/elementosHUD/Control"]
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 34 )
+
+[node name="FPScounter" parent="head/Camera/elementosHUD" instance=ExtResource( 29 )]
+anchor_left = 0.94375
+anchor_top = 0.0148148
+anchor_right = 0.94375
+anchor_bottom = 0.0148148
+margin_left = -77.0
+margin_top = 2.66667
+margin_right = 190.0
+margin_bottom = 138.667
+
+[node name="blanco y negro" type="ColorRect" parent="head/Camera/elementosHUD"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.572549 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Dañopresente" type="Sprite" parent="head/Camera/elementosHUD"]
+visible = false
+position = Vector2( 320.75, 181.125 )
+scale = Vector2( 0.406646, 0.409168 )
+texture = ExtResource( 45 )
+
+[node name="danopresentetimer" type="Timer" parent="head/Camera/elementosHUD/Dañopresente"]
+wait_time = 0.135
+
+[node name="danopresentesound" type="AudioStreamPlayer" parent="head/Camera/elementosHUD/Dañopresente"]
+stream = ExtResource( 46 )
+volume_db = 3.0
+
+[node name="Hand" type="Spatial" parent="head/Camera"]
+script = ExtResource( 14 )
+sway_left = Vector3( 0, 0.2, 0 )
+
+[node name="gun12" parent="head/Camera/Hand" instance=ExtResource( 25 )]
+transform = Transform( -0.494885, -0.0333636, -0.0477474, -0.0542395, 0.298058, -0.0169055, 0.0495465, -0.00695526, -0.495422, 0.619667, -0.778788, -0.422105 )
+
+[node name="disparo" type="MeshInstance" parent="head/Camera/Hand/gun12"]
+transform = Transform( 0.296, -6.34464e-09, -3.49246e-10, 9.77889e-09, 0.51, 5.82077e-11, 1.11759e-08, -9.31323e-10, 0.016, -0.0249996, 1.267, 2.14 )
+layers = 2
+mesh = SubResource( 13 )
+material/0 = ExtResource( 30 )
+
+[node name="pintura" type="MeshInstance" parent="head/Camera/Hand/gun12"]
+transform = Transform( 0.153808, 0.0196295, 0.000671515, -0.00769199, 0.392509, 0, -0.000201334, -2.5695e-05, 0.513, -0.025, 1.217, 2.157 )
+visible = false
+mesh = SubResource( 17 )
+
+[node name="cosito rojo" type="MeshInstance" parent="head/Camera/Hand/gun12"]
+transform = Transform( 0.066, -1.86265e-09, -5.82077e-11, 0, 0.165, -0.214, 0, 0.232, 0.008, -0.0139999, 1.52299, 0.234001 )
+mesh = SubResource( 28 )
+skeleton = NodePath("../Cube")
+
+[node name="mano1" type="MeshInstance" parent="head/Camera/Hand/gun12"]
+transform = Transform( -1.19761, 0.815416, -2.95677e-08, 0, -1.69513e-07, -3.217, -0.257577, -3.7913, 1.37476e-07, -0.69, 0.18, 0.202 )
+mesh = SubResource( 32 )
+material/0 = ExtResource( 31 )
+
+[node name="mano2" type="MeshInstance" parent="head/Camera/Hand/gun12"]
+transform = Transform( -1.19761, 0.815416, -2.95677e-08, 0, -1.69513e-07, -3.217, -0.257577, -3.7913, 1.37476e-07, -0.69, 0.18, 0.202 )
+visible = false
+mesh = SubResource( 32 )
+material/0 = SubResource( 33 )
+
+[node name="fock" type="AnimationPlayer" parent="head/Camera/Hand"]
+root_node = NodePath("../gun12")
+anims/RESET = SubResource( 181 )
+anims/fack = SubResource( 182 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="head/Camera/Hand"]
+anims/RESET = SubResource( 183 )
+anims/fair = SubResource( 184 )
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="head/Camera/Hand"]
+root_node = NodePath("../gun12")
+anims/RESET = SubResource( 185 )
+anims/pintu = SubResource( 186 )
+
+[node name="chutazo" type="AudioStreamPlayer" parent="head/Camera/Hand"]
+stream = ExtResource( 16 )
+volume_db = -10.0
+pitch_scale = 1.1
+bus = "SFX"
+
+[node name="bala azul" type="AudioStreamPlayer" parent="head/Camera/Hand"]
+stream = ExtResource( 19 )
+volume_db = -8.0
+pitch_scale = 1.1
+bus = "SFX"
+
+[node name="oof" type="AudioStreamPlayer" parent="head/Camera/Hand"]
+stream = ExtResource( 20 )
+volume_db = -8.0
+bus = "SFX"
+
+[node name="pinturado" type="AudioStreamPlayer" parent="head/Camera/Hand"]
+stream = ExtResource( 21 )
+volume_db = -6.0
+bus = "SFX"
+
+[node name="fockudo" type="AudioStreamPlayer" parent="head/Camera/Hand"]
+stream = ExtResource( 4 )
+volume_db = -5.0
+pitch_scale = 1.1
+bus = "SFX"
+
+[node name="RayCast" type="RayCast" parent="head/Camera"]
+transform = Transform( 1, -3.72529e-09, 7.45058e-09, 4.65661e-10, 1, 0, 0, 0, 1, -0.0536855, 0.0223503, -0.770905 )
+enabled = true
+cast_to = Vector3( 0, 0, -1500 )
+
+[node name="teleported" type="RayCast" parent="head/Camera"]
+visible = false
+enabled = true
+cast_to = Vector3( 0, 0, -200 )
+
+[node name="Area" type="Area" parent="head/Camera"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.32266, -3.50158 )
+
+[node name="CollisionShape" type="CollisionShape" parent="head/Camera/Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.487398, -1.25355 )
+shape = SubResource( 61 )
+
+[node name="aim" type="Spatial" parent="head/Camera/Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.03407 )
+
+[node name="HeadBonker" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.65187, 0 )
+enabled = true
+cast_to = Vector3( 0, 0.2, 0 )
+
+[node name="efectuado" type="Area" parent="." groups=["PlayerArea"]]
+
+[node name="CollisionShape" type="CollisionShape" parent="efectuado"]
+transform = Transform( 1.1, 0, 0, 0, -4.80825e-08, -1.1, 0, 1.1, -4.80825e-08, 0, 0, 0 )
+shape = SubResource( 2 )
+
+[node name="salto" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -5.0
+pitch_scale = 0.8
+bus = "SFX"
+
+[node name="agacho" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -10.0
+pitch_scale = 0.8
+bus = "SFX"
+
+[node name="caminar" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 2 )
+volume_db = -15.0
+pitch_scale = 0.2
+bus = "SFX"
+
+[node name="patas" type="MeshInstance" parent="."]
+transform = Transform( 0.892991, 1.68979e-08, 0.00582051, -0.00364332, 0.0670011, 1.24735, -0.00138119, -0.176725, 0.472903, -0.119, -0.473347, 0.780579 )
+mesh = SubResource( 39 )
+skeleton = NodePath("../head")
+material/0 = SubResource( 40 )
+
+[node name="patas2" type="MeshInstance" parent="."]
+transform = Transform( 0.892991, 1.68979e-08, 0.00582051, -0.00203636, 0.161135, 0.697165, -0.00332185, -0.0987747, 1.13731, -0.119, -0.0482407, 0.422089 )
+visible = false
+mesh = SubResource( 39 )
+skeleton = NodePath("../head")
+material/0 = SubResource( 41 )
+
+[node name="pataszules2" type="MeshInstance" parent="."]
+transform = Transform( 0.892991, 1.68979e-08, 0.00582051, -0.00203636, 0.161135, 0.697165, -0.00332185, -0.0987747, 1.13731, -0.0874049, -0.0482407, 0.351927 )
+visible = false
+mesh = SubResource( 39 )
+skeleton = NodePath("../head")
+material/0 = SubResource( 54 )
+
+[node name="patas3" type="MeshInstance" parent="."]
+transform = Transform( 0.892991, 1.68979e-08, 0.00582051, -0.00364332, 0.0670011, 1.24735, -0.00138119, -0.176725, 0.472903, 0.0347112, -0.473, 0.843462 )
+visible = false
+mesh = SubResource( 39 )
+skeleton = NodePath("../head")
+material/0 = SubResource( 56 )
+
+[node name="agache" type="AnimationPlayer" parent="."]
+pause_mode = 2
+anims/RESET = SubResource( 187 )
+anims/patosas = SubResource( 188 )
+
+[node name="patasmessi" type="AnimationPlayer" parent="."]
+root_node = NodePath("../head/Camera/Hand")
+anims/RESET = SubResource( 189 )
+anims/soquete = SubResource( 190 )
+
+[node name="Movimientodecabeza" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 191 )
+anims/movicabezi = SubResource( 192 )
+anims/movicabeziderecha = SubResource( 193 )
+anims/movicabeziizquiera = SubResource( 194 )
+anims/saltocab = SubResource( 195 )
+
+[node name="Paused" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Pausebackgroundsys" type="Sprite" parent="Paused"]
+visible = false
+position = Vector2( 320, 180 )
+scale = Vector2( 0.810811, 0.660745 )
+texture = ExtResource( 40 )
+
+[node name="quitdek" type="Button" parent="Paused/Pausebackgroundsys"]
+pause_mode = 2
+modulate = Color( 0.992157, 0, 1, 1 )
+self_modulate = Color( 1, 0, 0.72549, 1 )
+margin_left = -99.9
+margin_top = 27.242
+margin_right = 886.1
+margin_bottom = 777.242
+rect_scale = Vector2( 0.2, 0.2 )
+icon = ExtResource( 23 )
+flat = true
+
+[node name="quitmenu" type="Button" parent="Paused/Pausebackgroundsys"]
+pause_mode = 2
+margin_left = -113.467
+margin_top = -137.723
+margin_right = 1129.53
+margin_bottom = 690.277
+rect_scale = Vector2( 0.18, 0.18 )
+icon = ExtResource( 24 )
+flat = true
+
+[node name="quittimer" type="Timer" parent="Paused/Pausebackgroundsys/quitmenu"]
+pause_mode = 2
+wait_time = 0.1
+
+[node name="backpause" type="TextureButton" parent="Paused/Pausebackgroundsys"]
+pause_mode = 2
+margin_left = -54.2667
+margin_top = 192.207
+margin_right = 51.7333
+margin_bottom = 222.207
+rect_scale = Vector2( 1, 1.2 )
+texture_normal = ExtResource( 41 )
+
+[node name="PlayerBody" type="MeshInstance" parent="."]
+transform = Transform( -1, -1.50996e-07, 6.60024e-15, -2.28319e-08, 0.151209, -0.988502, 1.4926e-07, -0.988502, -0.151209, -0.118818, 0.890311, 0.216312 )
+visible = false
+mesh = SubResource( 196 )
+material/0 = SubResource( 197 )
+
+[node name="PlayerBody2" type="MeshInstance" parent="PlayerBody"]
+transform = Transform( -0.531677, -1.66553e-07, 1.05599e-07, -1.33826e-07, 0.267066, -0.745896, 2.31245e-07, -0.959147, -0.267066, 4.76837e-07, -0.745434, 0.198047 )
+mesh = SubResource( 196 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 198 )
+
+[node name="DeathAnimation" type="AnimationPlayer" parent="PlayerBody"]
+anims/Deathanimation = SubResource( 199 )
+anims/RESET = SubResource( 207 )
+
+[node name="Particles" type="Particles" parent="PlayerBody"]
+transform = Transform( 1, -1.98952e-13, -7.10543e-15, 1.27898e-13, 1, 0, 5.32907e-15, 0, 1, -0.293175, -0.245625, -0.0375729 )
+visible = false
+amount = 50
+lifetime = 0.5
+speed_scale = 0.51
+explosiveness = 0.78
+randomness = 0.33
+process_material = SubResource( 200 )
+draw_pass_1 = SubResource( 201 )
+
+[node name="Particles2" type="Particles" parent="PlayerBody/Particles"]
+transform = Transform( 1, 0, 0, 1.42109e-14, 1, -1.49012e-08, 0, 1.49012e-08, 1, 0, 0, 0 )
+amount = 50
+lifetime = 0.5
+speed_scale = 8.66
+explosiveness = 0.45
+randomness = 0.05
+process_material = SubResource( 200 )
+draw_pass_1 = SubResource( 204 )
+
+[node name="Particles3" type="Particles" parent="PlayerBody/Particles"]
+transform = Transform( 1.17522, -1.0336e-09, 6.63183e-10, -1.03324e-09, 1.18207, -0.00439215, 6.63203e-10, -0.00439213, 1.21011, 2.38419e-06, 0, 0 )
+amount = 20
+lifetime = 0.5
+speed_scale = 8.66
+explosiveness = 0.45
+randomness = 0.05
+process_material = SubResource( 200 )
+draw_pass_1 = SubResource( 206 )
+
+[node name="gun12" parent="PlayerBody" instance=ExtResource( 25 )]
+transform = Transform( 0.498024, 0.00292556, 0.0439672, -0.0439018, 0.0775171, 0.479098, -0.0067155, -0.289798, 0.128596, -0.72661, 0.62175, 1.00046 )
+
+[node name="cosito rojo" type="MeshInstance" parent="PlayerBody/gun12"]
+transform = Transform( 0.066, -1.86265e-09, -5.82077e-11, 0, 0.165, -0.214, 0, 0.232, 0.008, -0.0139999, 1.52299, 0.234001 )
+mesh = SubResource( 28 )
+skeleton = NodePath("../Cube")
+
+[node name="mano2" type="MeshInstance" parent="PlayerBody/gun12"]
+transform = Transform( -1.19761, 0.815416, -2.95677e-08, 0, -1.69513e-07, -3.217, -0.257577, -3.7913, 1.37476e-07, -0.69, 0.18, 0.202 )
+visible = false
+mesh = SubResource( 32 )
+material/0 = SubResource( 33 )
+
+[node name="deathtimer" type="Timer" parent="PlayerBody"]
+wait_time = 2.1
+
+[node name="explosionmuerte" type="AudioStreamPlayer" parent="PlayerBody"]
+stream = ExtResource( 44 )
+volume_db = 2.2
+
+[connection signal="timeout" from="head/Camera/elementosHUD/Playerhealthiconlowhealth/PlayerHealthSong" to="." method="_on_PlayerHealthSong_timeout"]
+[connection signal="timeout" from="head/Camera/elementosHUD/Danoojito/rojotim" to="." method="_on_rojotim_timeout"]
+[connection signal="timeout" from="head/Camera/elementosHUD/Dañopresente/danopresentetimer" to="." method="_on_danopresentetimer_timeout"]
+[connection signal="area_entered" from="efectuado" to="." method="_on_efectuado_area_entered"]
+[connection signal="area_exited" from="efectuado" to="." method="_on_efectuado_area_exited"]
+[connection signal="body_entered" from="efectuado" to="." method="_on_efectuado_body_entered"]
+[connection signal="pressed" from="Paused/Pausebackgroundsys/quitdek" to="." method="_on_quitdek_pressed"]
+[connection signal="pressed" from="Paused/Pausebackgroundsys/quitmenu" to="." method="_on_quitmenu_pressed"]
+[connection signal="timeout" from="Paused/Pausebackgroundsys/quitmenu/quittimer" to="." method="_on_quittimer_timeout"]
+[connection signal="pressed" from="Paused/Pausebackgroundsys/backpause" to="." method="_on_backpause_pressed"]
+[connection signal="timeout" from="PlayerBody/deathtimer" to="." method="_on_deathtimer_timeout"]

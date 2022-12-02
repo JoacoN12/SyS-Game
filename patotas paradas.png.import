@@ -15,7 +15,7 @@ dest_files=[ "res://.import/patotas paradas.png-02093aafef4b57692d9f04779b811258
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
