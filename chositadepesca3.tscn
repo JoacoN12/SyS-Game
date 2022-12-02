@@ -15,6 +15,7 @@ data = PoolVector3Array( -1.4987, 5.0254, -0.52, -1.1299, -1, -0.52, -1.1299, -1
 material/0 = ExtResource( 2 )
 
 [node name="StaticBody" type="StaticBody" parent="Cube003" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube003/StaticBody" index="0"]
 shape = SubResource( 1 )
@@ -25,4 +26,5 @@ material/0 = ExtResource( 2 )
 [node name="StaticBody" type="StaticBody" parent="Cube002" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Cube002/StaticBody" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 shape = SubResource( 2 )

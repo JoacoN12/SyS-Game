@@ -15,7 +15,7 @@ dest_files=[ "res://.import/096 VIDEO MISERY 3 - copia.png-fe006923c0ecc64b9b403
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

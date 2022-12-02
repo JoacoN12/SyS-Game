@@ -15,7 +15,7 @@ dest_files=[ "res://.import/cangrejotos.png-9e5c3acb2cb545c72c7984fc9281f6bc.ste
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

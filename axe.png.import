@@ -15,7 +15,7 @@ dest_files=[ "res://.import/axe.png-4bc9ac444747047d74a0e175e1420d1e.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

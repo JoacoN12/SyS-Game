@@ -15,7 +15,7 @@ dest_files=[ "res://.import/05 scp.png-a43fd8be8621b1efc5f3a5fd59c5c8cb.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

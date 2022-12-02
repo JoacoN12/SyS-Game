@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://crystal2.tres" type="Material" id=1]
+[ext_resource path="res://cristal punta.tres" type="Material" id=1]
 [ext_resource path="res://torre4.dae" type="PackedScene" id=2]
 
 [sub_resource type="ConcavePolygonShape" id=1]

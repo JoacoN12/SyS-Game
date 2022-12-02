@@ -15,10 +15,10 @@ dest_files=[ "res://.import/cone.png-4de8d8b12f0405e1d07acb9e266186be.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
-compress/normal_map=0
+compress/normal_map=1
 flags/repeat=true
 flags/filter=true
 flags/mipmaps=true

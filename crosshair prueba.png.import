@@ -15,7 +15,7 @@ dest_files=[ "res://.import/crosshair prueba.png-cef80739e4ab5d5ca05b5ad5422e42c
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

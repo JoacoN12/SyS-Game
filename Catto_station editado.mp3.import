@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Catto_station editado.mp3-8cf6e532df30e6c844856b4d50d8abb2.mp3str"
+
+[deps]
+
+source_file="res://Catto_station editado.mp3"
+dest_files=[ "res://.import/Catto_station editado.mp3-8cf6e532df30e6c844856b4d50d8abb2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

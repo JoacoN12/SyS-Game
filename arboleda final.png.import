@@ -15,7 +15,7 @@ dest_files=[ "res://.import/arboleda final.png-701833131abc39c3e3e0ebe8cfcc8b4b.
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

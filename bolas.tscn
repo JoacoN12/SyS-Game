@@ -1,0 +1,779 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://pelotastext.tres" type="Material" id=1]
+[ext_resource path="res://pelotatext2.tres" type="Material" id=2]
+[ext_resource path="res://cugo.gd" type="Script" id=3]
+
+[sub_resource type="SphereMesh" id=80]
+
+[sub_resource type="SphereShape" id=81]
+
+[node name="bolas" type="Node"]
+
+[node name="cugo" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -433.987, 126.548, 451.75 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo2" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -432.966, 122.364, 428.565 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo2"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo2"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo3" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -435.308, 128.975, 435.509 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo3"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo3"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo4" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.527, 128.42, 445.236 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo4"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo4"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo5" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -429.736, 127.536, 430.531 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo5"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo5"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo6" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -436.116, 136.263, 438.845 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo6"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo6"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo7" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -417.838, 127.377, 450.001 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo7"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo7"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo8" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -421.278, 129.704, 423.891 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo8"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo8"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo10" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -423.816, 134.147, 439.882 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo10"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo10"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo11" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -423.816, 126.183, 426.833 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo11"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo11"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo9" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -433.987, 132.431, 451.75 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo9"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo9"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo12" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -432.966, 128.247, 428.565 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo12"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo12"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo13" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -435.308, 134.858, 435.509 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo13"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo13"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo14" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.527, 134.303, 445.236 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo14"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo14"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo15" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -429.736, 133.419, 430.531 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo15"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo15"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo16" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -436.116, 142.146, 438.845 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo16"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo16"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo17" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -417.838, 133.259, 450.001 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo17"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo17"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo18" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -421.278, 135.587, 423.891 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo18"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo18"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo19" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -423.816, 140.029, 439.882 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo19"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo19"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo20" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -423.816, 132.065, 426.833 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo20"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo20"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo21" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -437.707, 135.849, 459.52 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo21"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo21"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo22" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -436.685, 131.665, 436.335 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo22"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo22"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo23" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.028, 138.276, 443.278 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo23"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo23"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo24" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -431.246, 137.721, 453.006 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo24"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo24"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo25" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -433.456, 136.837, 438.3 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo25"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo25"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo26" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.836, 145.564, 446.614 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo26"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo26"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo27" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -421.558, 136.678, 457.77 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo27"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo27"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo28" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -424.998, 139.005, 431.661 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo28"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo28"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo29" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.535, 143.448, 447.651 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo29"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo29"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo30" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.535, 135.484, 434.603 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo30"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo30"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo31" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -437.707, 121.572, 459.52 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo31"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo31"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo32" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -436.685, 117.388, 436.335 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo32"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo32"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo33" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.028, 123.999, 443.278 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo33"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo33"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo34" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -431.246, 123.444, 453.006 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo34"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo34"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo35" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -433.456, 122.56, 438.3 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo35"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo35"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo36" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.836, 131.287, 446.614 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo36"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo36"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo37" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -421.558, 122.401, 457.77 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo37"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo37"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo38" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -424.998, 124.728, 431.661 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo38"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo38"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo39" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.535, 129.171, 447.651 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo39"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo39"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo40" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -427.535, 121.207, 434.603 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo40"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo40"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo41" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -437.707, 127.477, 459.52 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo41"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo41"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo42" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -436.685, 123.294, 436.335 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo42"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo42"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo43" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.028, 129.905, 443.278 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo43"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo43"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo44" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -431.246, 129.349, 453.006 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo44"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo44"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo45" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -433.456, 128.466, 438.3 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo45"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo45"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo46" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -439.836, 137.193, 446.614 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo46"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo46"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo47" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -421.558, 128.306, 457.77 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo47"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo47"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )
+
+[node name="cugo48" type="RigidBody" parent="." groups=["enigazo"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -424.998, 130.633, 431.661 )
+mass = 13.4929
+gravity_scale = 21.59
+script = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="cugo48"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.13533, 0 )
+mesh = SubResource( 80 )
+skeleton = NodePath("")
+material/0 = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="cugo48"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.01657, 0 )
+shape = SubResource( 81 )

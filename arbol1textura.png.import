@@ -15,7 +15,7 @@ dest_files=[ "res://.import/arbol1textura.png-84a39ebdefaf91423cff5ff6c76b9154.s
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

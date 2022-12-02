@@ -15,7 +15,7 @@ dest_files=[ "res://.import/conevl.png-8a2a212bd4c6766fbf5962618c386118.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

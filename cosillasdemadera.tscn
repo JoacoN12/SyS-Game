@@ -1,0 +1,142 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://bordemaderoso.tres" type="Material" id=1]
+
+[sub_resource type="CubeMesh" id=209]
+
+[sub_resource type="ConcavePolygonShape" id=210]
+data = PoolVector3Array( -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1, 1, -1, -1, 1, -1, 1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, -1, -1, 1, 1, -1, 1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1 )
+
+[node name="cosillasdemadera" type="Spatial"]
+
+[node name="postedepuentecubo" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.77636e-14, 0, 4.795, 0, 1.24345e-14, 0, 0.151, -0.173054, -4.88919, 6.87737 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo2" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.42109e-14, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173054, -26.0321, 2.87738 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo2"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo2/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo3" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 2.84217e-14, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173054, -24.0321, 0.87738 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo3"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo3/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo4" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 4.26326e-14, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173073, -22.3178, -1.12262 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo4"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo4/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo5" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 5.68434e-14, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173069, -28.0321, 4.87738 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo5"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo5/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo6" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 9.9476e-14, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173119, -20.3178, -3.12262 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo6"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo6/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo7" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.20792e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173119, -16.0321, -7.12261 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo7"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo7/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo8" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.27898e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173119, -14.6035, -9.12261 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo8"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo8/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo9" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.42109e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173119, -17.7464, -5.12261 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo9"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo9/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo10" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 1.77636e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173153, -12.0321, -11.217 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo10"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo10/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo11" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 2.20268e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173199, -9.74638, -13.217 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo11"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo11/StaticBody"]
+shape = SubResource( 210 )
+
+[node name="postedepuentecubo12" type="MeshInstance" parent="."]
+transform = Transform( 0.319, 0, 2.4869e-13, 0, 30, 0, 3.19744e-14, 0, 0.151, -0.173199, -7.74638, -15.217 )
+mesh = SubResource( 209 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 1 )
+
+[node name="StaticBody" type="StaticBody" parent="postedepuentecubo12"]
+
+[node name="CollisionShape" type="CollisionShape" parent="postedepuentecubo12/StaticBody"]
+shape = SubResource( 210 )

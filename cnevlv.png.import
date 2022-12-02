@@ -15,7 +15,7 @@ dest_files=[ "res://.import/cnevlv.png-0ad906e5824cdf992b4203d923ec4ba6.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

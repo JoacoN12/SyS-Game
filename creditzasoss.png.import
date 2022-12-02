@@ -15,7 +15,7 @@ dest_files=[ "res://.import/creditzasoss.png-977592bad6e16554af7f92ed291efa35.st
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0

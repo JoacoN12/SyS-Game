@@ -15,7 +15,7 @@ dest_files=[ "res://.import/convvlc.png-87c8f028f8d8ddf76d686c91f88d890b.stex" ]
 [params]
 
 compress/mode=0
-compress/lossy_quality=0.9
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
